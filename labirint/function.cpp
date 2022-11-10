@@ -1,5 +1,5 @@
-#include <conio.h>
-#include <process.h>
+//#include <conio.h>
+//#include <process.h>
 #include <iostream>
 #include<func.h>
 #include<stack>
