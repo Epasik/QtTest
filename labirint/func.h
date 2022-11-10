@@ -5,9 +5,9 @@
 #include <utility>
 #include <ctime>
 #include <fstream>
-#include <conio.h>
+//#include <conio.h>
 #include <stack>
-#include <windows.h>
+//#include <windows.h>
 
 using namespace std;
 

@@ -1,5 +1,5 @@
-#include <conio.h>
-#include <process.h>
+//#include <conio.h>
+//#include <process.h>
 #include <iostream>
 #include<func.h>
 #include<stack>
@@ -95,15 +95,15 @@ void movementPlayer(int val){
 
 void Update() {
     //Если нажата клавиша на клавиатуре
-    if (_kbhit()) {
-        int val = getch();
+    //if (_kbhit()) {
+        int val = getchar();
         movementPlayer(val);
         if (win == true){
             Congratulations();
         }
         //Отрисовка
         DrawField();
-    }
+    //}
 }
 
 void init_start_player_pos(){
