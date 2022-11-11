@@ -11,7 +11,7 @@ jobs:
       - run: sudo apt-get update -y && sudo apt-get install -y qt5-qmake qt5-default
       - run: qmake
       - run: make
-      - run: ./googleTests/googleTests.pro
+      - run: ./googleTests/googleTests
 
       - name: Coveralls
         run: coveralls -t ${{ secrets.coveralls_token }} --root . -E ".*external.*" -E ".*tests.*"
